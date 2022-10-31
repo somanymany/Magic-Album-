@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/Campus_Graduation/Campus_Graduation",
+    "pages/Ancient_Magic/Ancient_Magic",
+    "pages/Weird_Emoticon/Weird_Emoticon",
+    "pages/Animation_Face/Animation_Face",
+    "pages/DisneyStyle_face/DisneyStyle_face",
+    "pages/MiyazakiHayao_style/MiyazakiHayao_style",
+    "pages/Campus_Nav/Campus_Nav",
+    "pages/Animation_Nav/Animation_Nav",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#093331",
+    "navigationBarTitleText": "魔法相册",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+  
+}
