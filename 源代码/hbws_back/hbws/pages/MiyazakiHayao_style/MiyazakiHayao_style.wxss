@@ -1,0 +1,23 @@
+page{
+  background-image:'/images/backimg.jpg';
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  }
+
+.upload-shot{display: flex; align-items: center;
+            border-radius: 10rpx;
+            width: 200rpx;
+            height: 80rpx;
+            justify-content: center;
+            }
+.upload-shot image{width: 80rpx; height: 70rpx; }
+.upload{display: flex; width: 100%; justify-content: space-around;}
+.upload-dis{position: fixed; bottom: 150rpx; left: 0; right: 0;}
+.list{background-image: linear-gradient(rgb(253, 249, 249) 0%,rgb(253, 240, 240) 25%, rgb(253, 217, 217)85%,rgb(253, 249, 249) 100%);}
+.uest{background-image: linear-gradient(rgb(253, 249, 249) 0%,rgb(253, 240, 240) 25%, rgb(253, 217, 217)85%,rgb(253, 249, 249) 100%);}
+
+
+.pageOne swiper{width: 750rpx;height: 900rpx;}
+.pageOne swiper-item{padding-top: 100rpx;}
+.pageOne image{width: 375rpx;height: 667rpx;position: absolute;left: 50%; margin-left: -188rpx;}
+.pageOne image.active{transform: scale(1.14);transition:all .2s ease-in 0s;}

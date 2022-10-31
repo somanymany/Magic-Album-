@@ -1,0 +1,24 @@
+<view class='pageBox pageOne'>
+  <view class='list'>
+    <swiper indicator-dots="{{true}}" autoplay="{{false}}" previous-margin="{{'140rpx'}}" next-margin="{{'140rpx'}}" bindchange="swiperChange">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+
+
+  <!-- 按钮 -->
+ <view class='upload-dis'>
+  <view class='upload'>
+    <view class='upload-shot list' bindtap='faceImage' data-list='{{"camera"}}'>
+        <image src='/static/images/xiangji.svg'></image>
+    </view>
+    <view class='upload-shot uest' bindtap='faceImage' data-list='{{"album"}}'>
+          <image src='/static/images/xiangce.svg'></image>
+    </view>
+  </view>
+ </view> 

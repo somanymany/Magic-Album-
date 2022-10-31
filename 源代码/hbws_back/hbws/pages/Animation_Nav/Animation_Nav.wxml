@@ -1,0 +1,15 @@
+<view class='faceing'>
+  <image bindtap="preView" mode="aspectFit" src="{{img_get}}" />
+</view>
+<!-- 处理图片 -->
+<view class='face-posi'>
+    <view class='face-list'>
+      <view class='prese' bindtap="saveToDisk">
+        <image src='/static/images/xiazai.svg'></image>
+        <text>保存</text>
+      </view>
+      <view class='share'>
+        <button data-name="shareBtn" open-type="share" >分享</button> 
+      </view>
+    </view>
+</view>
